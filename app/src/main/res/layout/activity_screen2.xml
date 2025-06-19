@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screen2">
+
+    <Button
+        android:id="@+id/displaybtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="Display songs"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <Button
+        android:id="@+id/ratingbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="Avg rating"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="386dp" />
+
+
+    <Button
+        android:id="@+id/homebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="home"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="597dp" />
+
+    <EditText
+        android:id="@+id/editTText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:hint="Songs"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="174dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="138dp"
+        android:layout_height="50dp"
+        android:hint="Rating"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="462dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
